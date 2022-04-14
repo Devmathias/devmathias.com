@@ -69,11 +69,13 @@ h1 {
     display: block;
     margin: auto;
     margin-top: 50px;
+    transform: skew(20deg);
+
 
 }
 #cont {
     background-color: #333;
-    height: 120px;
+    height: 400%;
     padding-top: 0;
     position: relative;
     width: 400px;
@@ -81,6 +83,7 @@ h1 {
     border-radius: 15px;
     opacity: 100%;
     background-blend-mode: multiply;
+    transform: skew(-20deg);
 }
 h3  {
     font-size: 30px;
