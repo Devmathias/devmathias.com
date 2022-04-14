@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevMathias</title>
+        <script src="contactscript.js"></script>
+        <link rel="stylesheet" href="contactstyle.css">
+        <link rel="icon" type="image/x-icon" href="Untitled.png">
+    </head>
+    <body style="background-image: url(bg.jpg);">
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutindex.html">About</a></li>
+                <li><a href="contactindex.html">Contact</a></li>
+                <li ><a id="pro" onmousedown="proe()">Projects</a></li>
+            </ul>
+        </div>
+            <div class="pro hide">
+                <ul>
+                    <li><a href="projectsindex.html?project=CE">ContentEditable</a></li>
+                    <li><a href="projectsindex.html?project=SB">Devmathias.com</a></li>
+                    <li><a href="projectsindex.html?project=DB">DeadBox</a></li>
+                </ul>
+            </div>
+        <div id="Rest" class="Rest"">
+            <div class="form">
+                <form>
+                    <select type="select" name="type" id="sendto">
+                        <option value="boss">Boss</option>
+                        <option value="support">Support</option>
+                        <option value="contact">Contact</option>
+                        <option value="info">Info</option>
+                    </select>
+                    <input type="text" id="name" name="name" placeholder="Subject" required>
+                    <input type="email" id="email"name="email" placeholder="Email" required>
+                    <textarea name="message" id="message"placeholder="Message" required></textarea>
+                    <button onclick="send()">Send</button>
+                </form>
+
+            </div>
+        </div>
+    </body>
+</html>

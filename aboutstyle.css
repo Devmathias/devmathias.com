@@ -1,0 +1,129 @@
+body {
+    background-color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#nav {
+    background-color: #333;
+    border-bottom: 1px solid rgb(58, 58, 58);
+    height: 40px;
+    padding: 0 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    background-color: #333333;
+
+
+}
+
+li {
+    display: inline;
+    margin: 0;
+    align-self: center;
+    background-color: #333333;
+    color: aliceblue;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+li a {
+    float: left;
+    display: block;
+    margin: 0;
+    text-align: center;
+    background-color: #333333;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 16px;
+    top: 0%;
+    border-left: 2px solid rgb(29, 29, 29);
+}
+
+li a:hover {
+    background-color: #525252;
+}
+
+@media only screen and (max-width: 1000px) {
+    .form {
+        min-width: 300px;
+        margin: 0 auto;
+        height: 500px;
+        margin-top: 50px;
+    }
+}
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+.circle {
+    background-color: #333;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    position: fixed;
+    top:10%;
+    left: 10%;
+    z-index: -1;
+    opacity: 70%;
+    transition: 400ms;
+    
+}
+.circleInner {
+    height: 282px;
+    width: 100%;
+    max-width: 282px;
+    margin: 58px auto;
+    text-align: center;
+
+}
+.circleInner .textc {    
+    color: antiquewhite;
+    text-decoration: underline;
+padding: 10px;
+opacity: 100% !important;
+}
+.circleInner .textcp {    
+    text-decoration: none !important;
+    color: antiquewhite;
+
+}
+.circle:hover {
+    opacity: 95%;
+}
+#c2 {
+    right:15%;
+    left: unset;
+    top: 30%
+}
+#c3 {
+    right:unset;
+    left: 30%;
+    top: unset;
+    bottom: 5%;
+}
+#img
+{
+    position: fixed;
+    bottom:5%;
+    left: 5%;
+    mask-image: none;
+}

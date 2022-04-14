@@ -1,0 +1,94 @@
+body {
+    background-color:#333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.back {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.Title {
+    font-size: 25px;
+    background-color: #333;
+    height: min-content;
+    color: antiquewhite;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    opacity: 90%;
+    display: block;
+    float: left;
+    width: 85%;
+    transition: 200ms;
+    max-width: 500px;
+}
+#t {
+    clear: both;
+    font-size: 20px;
+}
+:hover {
+    opacity: 100%;
+}
+#Desc {
+    font-size: 20px !important;
+    clear: both;
+}
+#nav {
+    background-color: #333;
+    border-bottom: 1px solid rgb(58, 58, 58);
+    height: 40px;
+    padding: 0 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    background-color: #333333;
+
+
+}
+li {
+    display: inline;
+    margin: 0;
+    align-self: center;
+    background-color: #333333;
+    color: aliceblue;
+    font-size: 20px;
+    vertical-align: middle;
+}
+li a{
+    float: left;
+    display: block;
+    margin: 0;
+    text-align: center;
+    background-color: #333333;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 16px;
+    top: 0%;
+    border-left: 2px solid rgb(29, 29, 29);
+}
+li a:hover {
+    background-color: #525252;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+    float: left;
+    position: absolute;
+}

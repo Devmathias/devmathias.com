@@ -1,0 +1,194 @@
+body {
+    background-color:#333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+#nav {
+    background-color: #333;
+    border-bottom: 3px solid rgb(50, 50, 50);
+    height: 40px;
+    padding: 0 20px;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    background-color: #333333;
+
+
+}
+li {
+    display: inline;
+    margin: 0;
+    align-self: center;
+    background-color: #333333;
+    color: aliceblue;
+    font-size: 20px;
+    vertical-align: middle;
+}
+li a{
+    float: left;
+    display: block;
+    margin: 0;
+    text-align: center;
+    background-color: #333333;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 16px;
+    top: 0%;
+    border-left: 2px solid rgb(29, 29, 29);
+}
+li a:hover {
+    background-color: #525252;
+}
+#head {
+    background-color: rgb(204, 181, 151);
+    border-bottom: 1px solid rgb(122, 122, 122);
+    padding: 10px;
+    padding-top: 20px;
+    text-align-last: center;
+    height: 300px;
+}
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #a3a3a3;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+
+}
+#cont {
+    background-color: #333;
+    height: 120px;
+    padding-top: 0;
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+    opacity: 100%;
+    background-blend-mode: multiply;
+}
+h3  {
+    font-size: 30px;
+    align-self: center;
+}
+p { 
+    font-size: 20px;
+    align-self: center;
+}
+
+#title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #a3a3a3;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+#rest{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between; /* switched from default (flex-start, see below) */
+    align-content: center;
+}
+.content {
+    margin: 20px;
+    min-width: 30%;
+    max-width: 30%;
+    min-height: 500px;
+    background-color: #333;
+    opacity: 50%;
+    border-radius: 30px;
+    color: antiquewhite;
+}
+#rest #a2 {
+    display: inline-block;
+}
+#rest #a1 {
+    float: left;
+}
+#rest #a3{
+    float: right;
+}
+.content:hover {
+    opacity: 100%;
+    transition: 400ms;
+}
+.cT {
+    text-align: center;
+    height: 50px;
+    border-bottom: rgb(37, 37, 37) solid 3px;
+}
+.cC {
+    text-align: left;
+    margin: 20px;
+}
+.pro {
+    background-color: #333;
+    border-bottom: 1px solid rgb(58, 58, 58);
+    height: 40px;
+    padding: 0 20px;
+    border-top: #000 solid 1px;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+@media only screen and (max-width: 1000px) {
+    body  {
+        overflow: hidden !important;
+        height: auto !important;
+    }
+    [class*="content"]{
+        min-width: 90%;
+        height: 400px;
+        display: block;
+    }
+    [class*="Rest"]{
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        height:80% !important;
+        position: relative !important;
+        display: flex !important;
+        overflow: scroll !important;
+        min-width: 100% !important;
+        display: block !important;
+        flex-direction: column !important;            /* default value; can be omitted */
+        flex-wrap: nowrap !important;              /* default value; can be omitted */
+        justify-content: space-between !important; /* switched from default (flex-start, see below) */
+    }
+    [id*="a3"]{
+        float: left !important;
+    }
+    [id*="Head"]{
+        height: 200px !important;
+    }
+
+}

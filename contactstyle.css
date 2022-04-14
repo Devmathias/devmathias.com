@@ -1,0 +1,187 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#nav {
+    background-color: #333;
+    border-bottom: 1px solid rgb(58, 58, 58);
+    height: 40px;
+    padding: 0 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    background-color: #333333;
+
+
+}
+
+li {
+    display: inline;
+    margin: 0;
+    align-self: center;
+    background-color: #333333;
+    color: aliceblue;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+li a {
+    float: left;
+    display: block;
+    margin: 0;
+    text-align: center;
+    background-color: #333333;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 16px;
+    top: 0%;
+    border-left: 2px solid rgb(29, 29, 29);
+}
+
+li a:hover {
+    background-color: #525252;
+}
+
+#Rest {
+    height: 100%;
+    margin-top: 0px;
+    display: block;
+    position: relative;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.form {
+    align-self: center;
+    width: 50%;
+    min-width: 400px;
+    height: 80%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #333333;
+    top: 200px;
+    margin-top: 50px;
+    border-radius: 50px;
+    transition: 300ms;
+    opacity: 94%;
+
+}
+.form:hover {
+    opacity: 100%;
+}
+
+input {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    height: 50px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #525252;
+}
+
+select {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    height: 50px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #525252;
+
+}
+
+textarea {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    height: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+    background: #525252;
+
+}
+
+button {
+    background: #525252;
+
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    height: 50px;
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+@media only screen and (max-width: 1000px) {
+    .form {
+        min-width: 300px;
+        margin: 0 auto;
+        height: 500px;
+        margin-top: 50px;
+    }
+    input {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 20px;
+        height: 25px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    select {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 20px;
+        height: 25px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    textarea {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 50px;
+        height: 200px;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        resize: none;
+    }
+    
+    button {
+    
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 20px;
+        height: 25px;
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif
+    }
+}
