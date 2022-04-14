@@ -55,7 +55,7 @@ li a:hover {
     background-color: rgb(204, 181, 151);
     border-bottom: 1px solid rgb(122, 122, 122);
     padding: 10px;
-    padding-top: 20px;
+    padding-top: 30px;
     text-align-last: center;
     height: 300px;
 }
@@ -65,9 +65,10 @@ h1 {
     color: #a3a3a3;
     margin: 0;
     padding: 0;
-    padding-top: 20px;
+    padding-top: 90px;
     display: block;
-    margin: auto;
+    margin: 0 auto;
+    margin-right: 35px;
     margin-top: 50px;
     transform: skew(20deg);
 
@@ -76,18 +77,18 @@ h1 {
 #cont {
     background-color: #333;
     height: 400%;
-    padding-top: 0;
+    padding-top: 0px;
     position: relative;
     width: 400px;
     margin: 0 auto;
     border-radius: 15px;
     opacity: 100%;
-    background-blend-mode: multiply;
     transform: skew(-20deg);
 }
 h3  {
     font-size: 30px;
     align-self: center;
+    margin: 0px;
 }
 p { 
     font-size: 20px;
@@ -125,9 +126,11 @@ p {
     max-width: 30%;
     min-height: 500px;
     background-color: #333;
-    opacity: 80%;
+    opacity: 50%;
     border-radius: 30px;
     color: antiquewhite;
+    border: rgb(31, 30, 30) solid 2px;
+
 }
 #rest #a2 {
     display: inline-block;
@@ -145,7 +148,11 @@ p {
 .cT {
     text-align: center;
     height: 50px;
-    border-bottom: rgb(37, 37, 37) solid 3px;
+    margin: 0px;
+    padding-top: 30px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 20px 20px 1px 1px;
+    
 }
 .cC {
     text-align: left;
