@@ -15,30 +15,24 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aboutindex.html">About</a></li>
                 <li><a href="contactindex.html">Contact</a></li>
-                <li ><a id="pro" onmousedown="proe()">Projects</a></li>
             </ul>
         </div>
-        <div class="pro hide">
-            <ul>
-                <li><a href="projectsindex.html?project=CE">ContentEditable</a></li>
-                <li><a href="projectsindex.html?project=SB">Devmathias.com</a></li>
-                <li><a href="projectsindex.html?project=DB">DeadBox</a></li>
-            </ul>
+        <div id="ShortDescription">
+            <div id="innerDescription">Description:</div>
         </div>
-        <div class="back"style="background-image: url(bg.jpg);">
-            <div class="container">
-                <div class="Title">
-                    <h1 id="a"></h1>
-                </div>
-                <div class="Title" id="t">
-                    <h1 id="a">Status: <br> </h1>
-                </div>
-                <div class="content Title" id="Desc">
-                    <h1 id="a">Description: </h1>
-                    <p id="description"></p>
-                </div>
+        <div id="moreprojects">
+            <div id="innerprojects">
+                <button class="More left" onclick="document.location='projectsindex.html?project=CE'">Content Editable</button>
+                <button class="More right"onclick="document.location='projectsindex.html?project=SB'">Devmathias.com</button>
+                <button class="More left" onclick="document.location='projectsindex.html?project=DB'">DeadBox</button>
+                <button class="More right"onclick="document.location='projectsindex.html?project='">N/A</button>
+                <button class="More left" onclick="document.location='projectsindex.html?project='">N/A</button>
+                <button class="More right"onclick="document.location='projectsindex.html?project='">N/A</button>
+
             </div>
-                
+        </div>
+        <div id="title">
+            <h1 id="ProjectName"></h1>
         </div>
     </body>
 </html>
