@@ -9,8 +9,9 @@ body {
     position: relative;
     overflow: hidden;
 }
+
 #nav {
-    background-color: #333;
+    background-color: rgb(37, 37, 37);
     border-bottom: 3px solid rgb(50, 50, 50);
     height: 40px;
     padding: 0 20px;
@@ -22,7 +23,7 @@ ul {
     margin: 0;
     padding: 0;
     float: left;
-    background-color: #333333;
+    background-color: rgb(37, 37, 37);
 
 
 }
@@ -30,7 +31,7 @@ li {
     display: inline;
     margin: 0;
     align-self: center;
-    background-color: #333333;
+    background-color: rgb(37, 37, 37);
     color: aliceblue;
     font-size: 20px;
     vertical-align: middle;
@@ -40,7 +41,7 @@ li a{
     display: block;
     margin: 0;
     text-align: center;
-    background-color: #333333;
+    background-color: rgb(37, 37, 37);
     color: aliceblue;
     font-size: 20px;
     text-decoration: none;
@@ -199,6 +200,19 @@ p {
     }
     [id*="Head"]{
         height: 200px !important;
+        z-index: -1 !important;
+        top: 0%;
+    }
+    [id*="cont"]{
+        height:200px !important;
+        position: fixed !important;
+        top: 0%;
+        min-width: 200px;
+        margin: 0 auto !important;
+        left: 50px;
+    }
+    h1 {
+        padding-top: 0;
     }
 
 }
