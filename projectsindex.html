@@ -35,10 +35,16 @@
             <h1 id="ProjectName"></h1>
         </div>
         <div id="main">
-            <div id="right" class="shows" onmouseenter="document.querySelector('#right').className='shows'" onmouseleave="document.querySelector('#right').className='hides'">
-                <div id="download">
+            <div id="right" class="shows small" onmouseenter="if(document.querySelector('#right').className=='hides large'){document.querySelector('#right').className='shows large'} else {document.querySelector('#right').className='shows small'}" onmouseleave="if(document.querySelector('#right').className=='shows large'){document.querySelector('#right').className='hides large'} else{document.querySelector('#right').className='hides small'}">
+                <!-- https://github.com/Devmathias/ContentEditable/raw/172a0c03f15afa013ee1e60bf922c772f05d1728/ContentEditable.zip -->
+                <div id="download" class="download">
                     <h2>Download</h2>
+                        
                 </div>
+                <div id="camilla">
+                    
+                </div>
+                <button id="downloadbtn" onmouseup="document.location='https:\/\/github.com/Devmathias/ContentEditable/raw/172a0c03f15afa013ee1e60bf922c772f05d1728/ContentEditable.zip'">Click here to download</button>
             </div>
         </div>
         <footer>

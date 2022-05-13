@@ -44,6 +44,27 @@ t['CE'] = 'Complete';
     document.getElementById("ProjectName").innerHTML = `Project:<br> ${p}`;
     getDescribtion(gp, extractDescribtion, DescHandler);
     //document.getElementById("status").innerHTML = 'Status: &nbsp&nbsp&nbsp' + t[keyss['project']];
+
+    var elmnt=document.getElementsByClassName("download")[0];
+    elmnt.addEventListener('click', function (event) {
+        elm=document.querySelector("#right");
+        if(elm.className=="hide"){
+            if(elm.className=="hide large"){
+                elm.className="hide small";
+            }
+            else{
+                elm.className="hide large";
+            }
+        }
+        else{
+            if(elm.className=="shows large"){
+            elm.className="shows small";
+            }
+            else{
+                elm.className="shows large";
+            }
+        }
+        });
 }
 function getDescribtion(project, callback, Handler){
     //http request to get the description of the project
